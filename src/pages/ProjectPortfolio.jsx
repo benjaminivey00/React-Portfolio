@@ -24,19 +24,19 @@ const ProjectPortfolio = () => {
         title: 'Code Quiz Game', 
         repo: 'https://github.com/benjaminivey00/codeQuizGame',
         link: 'https://github.com/benjaminivey00/codeQuizGame',
-      //   img: './img'
+        img: './img'
       },
       {
         title: 'Password Generator', 
         repo: 'https://github.com/benjaminivey00/password-generator',
         link: 'https://github.com/benjaminivey00/password-generator',
-      //   img: './img/'
+        img: './img/'
       },
     {
       title: 'Daily Planner',
       repo: 'https://github.com/benjaminivey00/Day-planner',
       link: 'https://github.com/benjaminivey00/Day-planner',
-    //   img: './img/work-day-scheduler.png'
+      img: './img/'
     }
   ]
     return (
