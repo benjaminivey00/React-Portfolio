@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #DDE0E2;
+  box-sizing: border-box;
+  letter-spacing: 0.12em;
+  line-height: 1.75;
+}
+body {
+  background-color: #121B25;
+  /* background-image: url(./img/hero-img.jpg); */
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  margin: 0 auto;
+}
+hr {
+  width: 100%;
+  background-color: #DDE0E2;
+}
+p {
+  font-weight: lighter;
+  text-align: justify;
+  letter-spacing: 3px;
+  padding: 10px 0;
+
+}
+.section {
+  background-color: rgba(52, 58, 64, 0.6)!important;
+  margin-bottom: 80px!important;
+}
+.navbar-dark {
+  background-color: rgba(52, 58, 64, 0.6)!important;
+}
+.card {
+  background-color: transparent!important;
+  border: none!important;
+}
+.card-title {
+  text-align: center;
+}
+.copyright, .far {
+  color: #4F575E;
+  font-weight: lighter;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    font-size: 2em!important;
+  }
+  h1 {
+    font-size: 1.75em!important;
+  }
+  img.profile {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 767px) {
+  .navbar-brand {
+    font-size: 2em!important;
+  }
+  .nav-link {
+    font-size: 1.25em!important;
+  }
+  h1 {
+    font-size: 1.75em!important;
+  }
+  img.profile {
+    float: left;
+    width: 60%;
+    padding: 10px 35px 5px 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  img.profile {
+    width: 40%;
+  }
+  p, .nav-link {
+    font-size: 1.15em;
+  }
+}
