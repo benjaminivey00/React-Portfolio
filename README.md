@@ -1,3 +1,7 @@
+This is my current portfolio it uses react.js to show off some of my projects and to tell you a little about me!
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
